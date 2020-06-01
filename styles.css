@@ -1,0 +1,33 @@
+h1 {
+    color: #025157;
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    background-color: #a3c6ca;
+}
+
+.colorDos {
+    color: #46484c;
+}
+
+.colorBoton {
+    color: #fff;
+    background-color: 025157;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.texto_centrado {
+    text-align: left;
+}
+
+
+
