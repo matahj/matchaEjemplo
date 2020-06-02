@@ -5,7 +5,65 @@ h1 {
 }
 
 body{
-    background-color: #a3c6ca;
+    background-color: #fffbf7;
+    margin: 0px;
+    paddign: 0px;
+}
+
+.header{
+    margin: 40px 20px 0px 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: center;
+    height: 100%;
+    line-height: 45px;
+}
+
+.logo{
+    width: 15%;
+}
+
+.menu-item{
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #025157;
+}
+
+.navbar{
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.action{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600%;
+}
+
+.action > *{
+    margin: 0px 10px;
+}
+
+.action a{
+    color: #67b54b;
+}
+
+.action button{
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
 }
 
 .colorDos {
