@@ -4,12 +4,6 @@ body{
     padding: 0px;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
 .header{
     margin: 40px 20px 0px 20px;
     font-size: 0;
