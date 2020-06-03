@@ -1,13 +1,7 @@
-h1 {
-    color: #025157;
-    font-weight: bold;
-    text-align: center;
-}
-
 body{
     background-color: #fffbf7;
     margin: 0px;
-    paddign: 0px;
+    padding: 0px;
 }
 
 .header{
@@ -29,18 +23,18 @@ body{
     width: 15%;
 }
 
-.menu-item{
-    display: inline;
-    margin-left: 25px;
-    margin-right: 25px;
-    color: #025157;
-}
-
 .navbar{
     width: 70%;
     text-align: center;
     color: #025157;
     font-weight: 500;
+}
+
+.menu-item{
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #025157;
 }
 
 .action{
@@ -66,6 +60,7 @@ body{
     border-radius: 5px;
 }
 
+
 .colorDos {
     color: #46484c;
 }
@@ -73,6 +68,12 @@ body{
 .colorBoton {
     color: #fff;
     background-color: 025157;
+}
+
+h1 {
+    color: #025157;
+    font-weight: bold;
+    text-align: center;
 }
 
 p {
