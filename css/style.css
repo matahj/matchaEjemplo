@@ -4,8 +4,16 @@ body{
     padding: 0px;
 }
 
+.fixed-header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #fffbf7;
+}
+
 .header{
-    margin: 40px 20px 0px 20px;
+    margin: 40px 20px 50px 20px;
     font-size: 0;
     height: 45px;
     font-family: sans-serif;
@@ -60,6 +68,56 @@ body{
     border-radius: 5px;
 }
 
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.explanatory-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.explanatory-video img{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.publish {
+    /* container styles if any */
+    flex: 1;
+}
+    
+.publish h3 {
+    font-family: Verdana;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157 ;
+}
+    
+.publish > p {
+    font-size: 16px;
+    color: #343434 ;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+    
+.publish > form {
+    display: flex;
+    flex-direction: column;
+}
+    
+.publish > form p {
+    color: #343434;
+    margin-right: 18px;
+}
+
+
 
 .colorDos {
     color: #46484c;
@@ -67,7 +125,7 @@ body{
 
 .colorBoton {
     color: #fff;
-    background-color: 025157;
+    background-color: #67b54b;
 }
 
 h1 {
@@ -87,6 +145,10 @@ form {
 .texto_centrado {
     text-align: left;
 }
+
+
+
+
 
 
 
